@@ -47,8 +47,7 @@
         "filter_collections": "Collections",
         "filter_styles": "Styles",
         "filter_color": "Color",
-        "reset": "Reset",
-        "close": "Close X"
+        "reset": "Reset"
       }
     },
     "blogs": {
@@ -94,7 +93,7 @@
         "shipping_information": "*Shipping rates based on domestic orders only. ",
         "update": "Update",
         "checkout": "Continue to Checkout",
-        "empty": "Your cart is lonely, let's go shopping!",
+        "empty": "Your cart is empty, let's go shopping!",
         "continue_browsing_html": "<a href=\"\/collections\/all\">here<\/a>.",
         "close_cart": "Close Cart",
         "savings_html": "You're saving {{ price }}",
@@ -218,23 +217,6 @@
       }
     },
     "customer": {
-      "orders": {
-        "title": "Order History",
-        "order_number": "Order",
-        "date": "Date",
-        "payment_status": "Payment Status",
-        "fulfillment_status": "Fulfillment Status",
-        "total": "Total",
-        "none": "You haven't placed any orders yet.",
-        "placed_at": "Placed "
-      },
-      "my_poptivism": "My Poptivism",
-      "favorites": {
-        "empty": "Your Favorites List is empty, let's change that!",
-        "empty_subheading": "Just add items to your Wish List and come back here when you're ready. You can add items from your Wish List directly from your cart or share it with someone else!",
-        "shop": "Shop All"
-      },
-      "account_settings": "Account Settings",
       "account": {
         "title": "My Account",
         "details": "Account Details",
@@ -272,6 +254,11 @@
         "edit": "Edit",
         "delete": "Delete"
       },
+      "favorites": {
+        "empty": "Your Favorites List is empty, let's change that!",
+        "empty_subheading": "Just add items to your Wish List and come back here when you're ready. You can add items from your Wish List directly from your cart or share it with someone else!",
+        "shop": "Shop All"
+      },
       "login": {
         "title": "Login",
         "returning": "Returning Customers",
@@ -284,6 +271,16 @@
         "guest_continue": "Continue",
         "create_heading": "New Customer",
         "create_benefits_html": "Membership Benefits: <br> - Save your billing and shipping info for faster easier checkout. <br> - Signup for emails and get insider info on the latest news. <br> - Archive your purchases for easier returns and re-orders. "
+      },
+      "orders": {
+        "title": "Order History",
+        "order_number": "Order",
+        "date": "Date",
+        "payment_status": "Payment Status",
+        "fulfillment_status": "Fulfillment Status",
+        "total": "Total",
+        "none": "You haven't placed any orders yet.",
+        "placed_at": "Placed "
       },
       "order": {
         "title": "Order {{ name }}",
@@ -344,7 +341,8 @@
         "privacy_link": "Privacy Policy",
         "terms_link": "Terms & Conditions",
         "statement_html": "By creating an account, you agree to PopSocket's <br> {{ privacy }} and {{ terms }}",
-        "password_no_match": "Passwords do not match"
+        "password_no_match": "Passwords do not match",
+        "social_signup": "Sign Up With"
       }
     },
     "homepage": {
@@ -385,11 +383,7 @@
         "logged_in_as_html": "Logged in as {{ first_name }}",
         "log_out": "Log out",
         "log_in": "Log in",
-        "create_account": "Create Account",
-        "orders": "Orders",
-        "my_poptivism": "My Poptivism",
-        "favorites": "Favorites List",
-        "account_settings": "Account Settings"
+        "create_account": "Create Account"
       },
       "gdpr_modal": {
         "modal_title": "Mmmm, Cookies?",
@@ -423,18 +417,16 @@
         "compare_at": "Compare at",
         "quantity": "Quantity",
         "add_to_cart": "Add to Cart",
+        "added_to_cart": "Added to Cart",
         "customize": "More Detail",
         "color_picker_text": "Choose colors",
         "reset": "Reset",
         "share": "Share",
-        "add_favorite": "Add Favorite",
-        "added": "Added",
-        "added_to_cart": "Added to Cart",
         "accordion": "Base",
         "platform": "Mount",
         "shipping": "low-cost shipping",
         "shipping_popup_title": "Low-Cost Shipping",
-        "shipping_popup_copy": "99¢ Standard Shipping on Domestic Orders",
+        "shipping_popup_copy": "$2.99 Standard Shipping on Domestic Orders",
         "shipping_popup_link_text": "Learn more",
         "returns": "hassle-free returns",
         "returns_popup_title": "Hassle-free Returns",
@@ -444,18 +436,7 @@
         "secure_popup_title": "Secure checkout",
         "secure_popup_copy": "Our orders are encrypted with SSL, provided level 3 PCI compliance and do not store any credit card data.",
         "secure_popup_link_text": "Learn more",
-        "icon_mount": "Mount Compatible",
-        "icon_swappable": "Swappable",
-        "icon_wireless": "Wireless Charging Compatible",
-        "swappable_design": "New Swappable Design!",
-        "non_swappable_design": "Non-swappable Design",
-        "countdown_text": "Few Left",
-        "wallet": {
-          "setup_text": "Choose your Setup",
-          "only_wallet": "PopWallet",
-          "wallet_grip_combo": "PopWallet + PopGrip",
-          "choose_grip": "Choose your swappable grip"
-        },
+        "coming_soon": "Coming Soon",
         "qrx": {
           "setup_text": "Choose your Setup",
           "more_info": "More Info",
@@ -466,8 +447,13 @@
           "modal_continue": "Continue",
           "modal_cancel": "Cancel",
           "modal_got_it": "Got it",
-          "whats_the_difference": "What's the difference?",
-          "custom_popgrip": "Custom PopGrip"
+          "whats_the_difference": "What's the difference?"
+        },
+        "wallet": {
+          "setup_text": "Choose your Setup",
+          "only_wallet": "PopWallet",
+          "wallet_grip_combo": "PopWallet + PopGrip",
+          "choose_grip": "Choose your swappable grip"
         }
       },
       "product_sections": {
